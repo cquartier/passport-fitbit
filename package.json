@@ -1,8 +1,15 @@
 {
   "name": "passport-fitbit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Fitbit authentication strategy for Passport.",
-  "keywords": ["passport", "fitbit", "auth", "authn", "authentication", "identity"],
+  "keywords": [
+    "passport",
+    "fitbit",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/jaredhanson/passport-fitbit.git"
@@ -15,10 +22,12 @@
     "email": "jaredhanson@gmail.com",
     "url": "http://www.jaredhanson.net/"
   },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
-  } ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
   "main": "./lib/passport-fitbit",
   "dependencies": {
     "pkginfo": "0.2.x",
@@ -30,5 +39,7 @@
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
-  "engines": { "node": ">= 0.4.0" }
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
